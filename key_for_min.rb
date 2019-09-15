@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   
   name_hash.find |key, value|
     
-    |s| s[:apr] < section[:apr] }
+    
     
   end
   
