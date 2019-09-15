@@ -8,9 +8,10 @@ def key_for_min_value(name_hash)
     return nil
     
   else
-    # Set min_value to 
+    # Init min key and value to first key/val pair in hash
     min_value = name_hash.first[1]
     min_key = name_hash.first[0]
+    
     name_hash.each do |key, value|
       if value < min_value
         min_value = value
