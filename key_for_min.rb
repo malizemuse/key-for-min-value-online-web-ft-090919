@@ -3,13 +3,12 @@
 
 def key_for_min_value(name_hash)
   
-  name_hash.find |key, value|
+  name_hash.each |key, value|
     
     
     
   end
   
-  #min_key
   
 end
 
